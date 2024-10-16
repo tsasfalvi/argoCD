@@ -12,7 +12,7 @@ spec:
               repoURL: https://github.com/tsasfalvi/argoCD.git
               revision: HEAD
               directories:
-                - path: applicationset/examplel-apps/*
+                - path: application-sets/examplel-apps/*
           # cluster generator, 'child' #2
           - clusters: {}
   template:
