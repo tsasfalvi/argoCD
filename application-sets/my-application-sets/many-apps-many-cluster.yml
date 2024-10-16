@@ -23,7 +23,7 @@ spec:
       labels:
         environment: training
     spec:
-      project: '{{metadata.labels.environment}}'
+      project: default
       source:
         repoURL: https://github.com/tsasfalvi/argoCD.git
         targetRevision: HEAD
