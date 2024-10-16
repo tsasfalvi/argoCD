@@ -20,6 +20,8 @@ spec:
   template:
     metadata:
       name: '{{path.basename}}-{{name}}'
+      labels:
+        environment: training
     spec:
       project: '{{metadata.labels.environment}}'
       source:
